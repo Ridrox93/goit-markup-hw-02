@@ -8,3 +8,25 @@ body {
 sans-serif;
 font-family: 'Roboto',
 sans-serif;*/
+.selector-buttons:hower {
+    background-color: #000000;
+}
+
+.selector-buttons {
+    background-color: #F4F4FD;
+}
+
+.nav-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;
+}
