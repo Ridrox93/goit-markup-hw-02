@@ -7,6 +7,7 @@ body {
 :root {
     --text-color: #2e2f42;
     --cloud-color: #F4F4FD;
+    --paragraf-color: #434455;
 }
 
 
@@ -36,11 +37,11 @@ body {
 /*header */
 .logo {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -90,7 +91,11 @@ body {
     flex-grow: 0;
 }
 
-.address-list {
+.menu-link:hower .menu-link:fokus {
+    color: #404bbf;
+}
+
+.menu-item .address-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -141,7 +146,8 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em text-align: center;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
     background-color: var(--text-color);
 }
@@ -170,12 +176,16 @@ body {
 .common-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--paragraf-color);
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.workers-section {
+    background-color: var(--cloud-color);
 }
 
 /*portfolio*/
