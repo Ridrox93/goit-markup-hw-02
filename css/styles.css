@@ -125,7 +125,9 @@ body {
 }
 
 .menu-list:hover,
-.menu-list.menu-item:focus {
+.menu-list:focus,
+.menu-list:hover,
+.menu-item:focus {
     color: #404bbf;
 }
 
