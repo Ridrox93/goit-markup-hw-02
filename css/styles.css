@@ -21,6 +21,26 @@ body {
 
 .address {
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraf-color);
+}
+
+.address-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraf-color);
+}
+
+.adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraf-color);
 }
 
 
@@ -95,22 +115,41 @@ body {
     flex-grow: 0;
 }
 
-.menu-item:hower {
+.menu-link {
+    color: var(--text-color);
+}
+
+.menu-link:hover,
+.menu-link.focus {
     color: #404bbf;
 }
 
-.menu-item:fokus {
+.menu-list:hover,
+.menu-list.menu-item:focus {
     color: #404bbf;
 }
 
-
-.menu-link:hower {
+.menu-item:hover,
+.menu-item:focus {
     color: #404bbf;
 }
 
-.menu-link:fokus {
-    color: #404bbf;
+.adress-link-mail,
+.adress-link-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraf-color);
 }
+
+.adress-link-mail:hover,
+.adress-link-mail:focus,
+.adress-link-tel:hover,
+.adress-link-tel:focus {
+    color: #404BBF;
+}
+
 
 .menu-item .address-list {
     font-weight: 400;
@@ -118,27 +157,6 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.modal-open-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background-color: #4D5AE5;
-    cursor: pointer;
-}
-
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-    background-color: #404BBF;
 }
 
 
@@ -202,9 +220,39 @@ body {
     flex-grow: 0;
 }
 
-.workers-section {
+/*worker section*/
+
+.workers-item {
     background-color: var(--cloud-color);
 }
+
+/*order sektion*/
+
+.modal-open-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background-color: #404BBF;
+}
+
+.order-section {
+    background-color: var(--text-color);
+}
+
 
 /*portfolio*/
 
