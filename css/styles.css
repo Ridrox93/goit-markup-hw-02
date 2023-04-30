@@ -80,6 +80,10 @@ body {
     flex-grow: 0;
 }
 
+.menu-list {
+    color: var(--text-color);
+}
+
 .menu-item {
     font-weight: 500;
     font-size: 16px;
@@ -132,7 +136,8 @@ body {
     cursor: pointer;
 }
 
-.modal-open-btn:hower .modal-open-btn:fokus {
+.modal-open-btn:hover,
+.modal-open-btn:focus {
     background-color: #404BBF;
 }
 
@@ -219,7 +224,8 @@ body {
     background: #F4F4FD;
 }
 
-.botton-in-list:hower .botton-in-list:fokus {
+.botton-in-list:hover,
+.botton-in-list:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
