@@ -1,25 +1,40 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background: #FFFFFF;
 }
+
+:root {
+    --text-color: #2e2f42;
+    --cloud-color: #F4F4FD;
+}
+
 
 /*font-family: 'Raleway',
     sans-serif;*/
 .nav-links {
 
     font-style: normal;
-    color: #2E2F42;
+    color: var(--text-color);
 }
+
+.address {
+    font-style: normal;
+}
+
 
 .link {
     text-decoration: none;
+    list-style: none
 }
 
 .list {
+    list-style: none;
     text-decoration: none;
 }
 
 /*header */
-.logo-first-part {
+.logo {
 
     font-family: 'Raleway';
     font-style: normal;
@@ -45,8 +60,22 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--text-color);
     flex: none;
+    flex-grow: 0;
+}
+
+.logo-second-part-white {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud-color);
+    flex: none;
+    order: 1;
     flex-grow: 0;
 }
 
@@ -55,7 +84,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -70,6 +99,7 @@ body {
 }
 
 .modal-open-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -81,8 +111,13 @@ body {
     order: 0;
     flex-grow: 0;
     background-color: #4D5AE5;
-    ;
+    cursor: pointer;
 }
+
+.modal-open-btn:hower .modal-open-btn:fokus {
+    background-color: #404BBF;
+}
+
 
 /* footer*/
 
@@ -91,7 +126,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--cloud-color);
 
 }
 
@@ -99,47 +134,34 @@ body {
     background-color: #2E2F42;
 }
 
-.logo-second-part-white {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
 
 /* після хедера  */
 .main-title {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em text-align: center;
     color: #FFFFFF;
-    background-color: #2E2F42;
+    background-color: var(--text-color);
 }
 
 .title-second {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--text-color);
 }
 
 .title-common {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -150,7 +172,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
     flex: none;
     order: 1;
     flex-grow: 0;
