@@ -120,7 +120,7 @@ body {
 }
 
 .menu-link:hover,
-.menu-link.focus {
+.menu-link:focus {
     color: #404bbf;
 }
 
@@ -224,8 +224,12 @@ body {
 
 /*worker section*/
 
-.workers-item {
+.workers-section {
     background-color: var(--cloud-color);
+}
+
+.workers-item {
+    background-color: #FFFFFF;
 }
 
 /*order sektion*/
